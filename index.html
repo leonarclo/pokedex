@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+  <title>Pokedex</title>
+
+  <link rel="icon" href="./img/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <main>
+    <img src="" alt="Gif sprite Pokemon" class="pokemon-img">
+    <img src="./img/pokedex2.png" alt="Pokedex" class="pokedex">
+
+    <h1 class="pokemon-data">
+      <span class="pokemon-id"></span>
+      <span class="pokemon-name"></span>
+    </h1>
+    <div class="pokemon-desc">
+      <div class="pokemon-type">
+        <p class="type"></p>
+      </div>
+      <div class="pokemon-stats">
+        <p class="hp"></p>
+        <p class="attack"></p>
+        <p class="defense"></p>
+        <p class="speed"></p>
+        <p class="weight"></p>
+      </div>
+    </div>
+    <form class="form-search">
+      <input type="search" class="input-search" placeholder="Procurar Pokemon..." required> 
+      <button class="search-btn" type="submit"></button>
+    </form>
+    <div class="buttons">
+      <button class="btn-prev">&lt;</button>
+      <button class="btn-next">&gt;</button>
+    </div>
+
+  </main>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
