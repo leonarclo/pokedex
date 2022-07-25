@@ -1,0 +1,24 @@
+{
+  "name": "pokedex",
+  "description": "<h1 align=\"center\">\r   Pokedex <img src=\"./img/.github/pokebol.png\" width=\"50\" alt=\"Pokedex\" align=\"center\"> \r </h1>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonarclo/pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonarclo/pokedex/issues"
+  },
+  "homepage": "https://github.com/leonarclo/pokedex#readme"
+}
