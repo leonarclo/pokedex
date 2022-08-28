@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 button:hover {
@@ -10,14 +10,14 @@ button:hover {
 }
 
 body {
-  background-image: url('../img/bg-pokemon.jpg');
+  background-image: url("../img/bg-pokemon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom center;
   text-align: center;
   max-height: 100vh;
-  overflow: hidden; 
+  overflow: hidden;
 }
 main {
   display: inline-block;
@@ -63,7 +63,7 @@ main {
   bottom: 59.5%;
   color: #a4eeb7;
   text-transform: capitalize;
-  font-size: clamp(.9rem, 3vw, 2rem);
+  font-size: clamp(0.9rem, 3vw, 2rem);
 }
 .pokemon-id {
   color: #568a63;
@@ -87,14 +87,14 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  font-size: clamp(.3rem, 1.8vw, 1.3rem);
+  font-size: clamp(0.3rem, 1.8vw, 1.3rem);
 }
 
 .pokemon-type {
   color: #a4eeb7;
   text-align: center;
   margin-bottom: 5%;
-  font-size: clamp(.4rem, 2vw, 1.3rem);
+  font-size: clamp(0.4rem, 2vw, 1.3rem);
 }
 
 .pokemon-body {
@@ -113,9 +113,10 @@ main {
 .speed {
   background-color: #d6d6d659;
 }
-.weight, .height {
+.weight,
+.height {
   margin-top: 4%;
-  font-size: clamp(.5rem, 1vw, .9rem);
+  font-size: clamp(0.5rem, 1vw, 0.9rem);
 }
 .weight {
   margin-right: 20%;
@@ -136,14 +137,14 @@ main {
   height: 100%;
   border-radius: 10px;
   padding-left: 5%;
-  font-size: clamp(.3rem, 1.5vw, 1rem);
+  font-size: clamp(0.3rem, 1.5vw, 1rem);
   outline: none;
   box-shadow: inset -3px 4px 0 #568a63, inset -5px 7px 0 #a4eeb7;
 }
 
 .search-btn {
   position: absolute;
-  content: '';
+  content: "";
   background-color: #050505;
   width: 28%;
   height: 99%;
@@ -151,7 +152,7 @@ main {
   left: -3%;
   border-radius: 50%;
   background-color: rgb(51, 51, 51);
-  box-shadow: -.3vw .4vw 0 #050505, -.3vw .4vw 0 rgb(34, 34, 34);
+  box-shadow: -0.1vw 0.2vw 0 #050505, -0.1vw 0.2vw 0 rgb(34, 34, 34);
   color: rgb(231, 231, 231);
   font-weight: bold;
   font-size: 2rem;
@@ -171,13 +172,14 @@ main {
   left: 33%;
 }
 
-.btn-prev, .btn-next {
+.btn-prev,
+.btn-next {
   width: 45%;
   background-color: rgb(51, 51, 51);
-  box-shadow: -.3vw .4vw 0 #050505, -.3vw .4vw 0 rgb(34, 34, 34);
+  box-shadow: -0.1vw 0.2vw 0 #050505, -0.1vw 0.2vw 0 rgb(34, 34, 34);
   color: rgb(231, 231, 231);
   font-weight: bold;
-  font-size: clamp(.3rem, 2vw, 1.3rem);
+  font-size: clamp(2rem, 4vw, 1.5rem);
 }
 
 .btn-prev {
@@ -188,7 +190,8 @@ main {
   border-radius: 5px 20px 20px 5px;
 }
 
-.btn-prev:active, .btn-next:active {
+.btn-prev:active,
+.btn-next:active {
   box-shadow: inset -2px 2px 0 #050505;
   font-size: 1.8rem;
 }
