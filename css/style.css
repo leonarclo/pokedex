@@ -179,7 +179,7 @@ main {
   box-shadow: -0.1vw 0.2vw 0 #050505, -0.1vw 0.2vw 0 rgb(34, 34, 34);
   color: rgb(231, 231, 231);
   font-weight: bold;
-  font-size: clamp(2rem, 4vw, 1.5rem);
+  font-size: clamp(0.6rem, 4vw, 2rem);
 }
 
 .btn-prev {
@@ -193,5 +193,5 @@ main {
 .btn-prev:active,
 .btn-next:active {
   box-shadow: inset -2px 2px 0 #050505;
-  font-size: 1.8rem;
+  font-size: clamp(0.5rem, 3vw, 1.7em);
 }
